@@ -1,11 +1,36 @@
 ﻿capital = 64
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 100
 set_war_support = 100
 #Starting tech
 set_technology = {
 	infantry_weapons = 1
-	interwar_artillery = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
 
 #For start date 1939.1.1
@@ -22,16 +47,16 @@ set_technology = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1935.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
 }
 
 #Politics for 1939.1.1
@@ -54,7 +79,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Schultz"
 	#Custom image for Schultz
-	picture = "schultz-80514.dds"
+	picture = "Schultz_Easteregg.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = { }
@@ -64,7 +89,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Tyler"
 	#Custom image for Tyler
-	picture = "tyler-80518.dds"
+	picture = "Tyler.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = { }
@@ -74,7 +99,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hansa"
 	#Custom image for Hansa
-	picture = "hansa-80517.dds"
+	picture = "Hansa_Easteregg.dds"
 	expire = "1965.1.1"
 	ideology = anti_revisionism
 	traits = { }
@@ -84,7 +109,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Steven"
 	#Custom image for Steven
-	picture = "steven-80519.dds"
+	picture = "Steven_Easteregg.dds"
 	expire = "1965.1.1"
 	ideology = moderatism
 	traits = { }
@@ -94,7 +119,7 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Zorro"
 	#Custom image for TBC
-	picture = "tbc-80516.dds"
+	picture = "Zorro.dds"
 	traits = { old_guard politically_connected media_personality infantry_leader }
 	skill = 1
 	attack_skill = 2
@@ -108,7 +133,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Steven"
 	#Custom image for TBC
-	picture = "isqdBJFH-80519.dds"
+	picture = "Steven_Admiral.dds"
 	traits = { brilliant_strategist war_hero old_guard big_guns_expert destroyer_leader }
 	skill = 5
 	attack_skill = 5
@@ -122,7 +147,7 @@ create_navy_leader = {
 create_corps_commander = {
 	name = "Todd"
 	#Custom image for TBC
-	picture = "JZCVDxoN-80513.dds"
+	picture = "Todd.dds"
 	traits = { old_guard media_personality }
 	skill = 2
 	attack_skill = 3
