@@ -80,6 +80,6 @@ create_country_leader = {
 	#Custom image for Hansa
 	picture = "Hansa_PRH.dds
 	expire = "1965.1.1"
-	ideology = anti_revisionism
+	ideology = communism
 	traits = { }
 }
