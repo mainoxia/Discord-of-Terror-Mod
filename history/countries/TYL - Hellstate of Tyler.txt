@@ -89,9 +89,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Tyler"
 	#Custom image for Tyler
-	picture = "Tyler_TYL.dds"
+	picture = "Tyler.dds"
 	expire = "1965.1.1"
-	ideology = ultranationalism
+	ideology = fascism
 	traits = { }
 }
 
@@ -119,7 +119,7 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Zorro"
 	#Custom image for Zorro
-	picture = "Zorro_TYL.dds"
+	picture = "Zorro.dds"
 	traits = { old_guard politically_connected media_personality infantry_leader }
 	skill = 1
 	attack_skill = 2
@@ -133,7 +133,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Steven"
 	#Custom image for Steven
-	picture = "Steven_Admiral.dds"
+	picture = "Steven_Easteregg.dds"
 	traits = { brilliant_strategist war_hero old_guard big_guns_expert destroyer_leader }
 	skill = 5
 	attack_skill = 5
@@ -147,7 +147,7 @@ create_navy_leader = {
 create_corps_commander = {
 	name = "Todd"
 	#Custom image for Todd
-	picture = "Todd_TYL.dds"
+	picture = "Todd.dds"
 	traits = { old_guard media_personality }
 	skill = 2
 	attack_skill = 3
