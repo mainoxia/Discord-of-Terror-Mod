@@ -1,0 +1,96 @@
+ideas = {
+	political_advisor = {
+		mr_rothschild = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {economic_reformer}
+			picture = /media/get//hoi4/ideas/people/idea_maurice_thorez
+		}
+		the_man_behind_the_slaughter = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {prince_of_terror}
+			picture = /media/get//hoi4/ideas/people/idea_joseph_goebbels
+		}
+		beefy = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {headstrong}
+			picture = /media/get//hoi4/ideas/people/idea_martin_bormann
+		}
+		fascism_bottom_text = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {fascist_demagogue}
+			picture = /media/get//hoi4/ideas/people/idea_yakov_smushkevich
+		}
+		monarchist_bottom_text = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {staunch_monarchist}
+			picture = /media/get//hoi4/ideas/people/idea_victor_denain
+		}
+		dick_cheney = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {democratic_reformer}
+			picture = /media/get//hoi4/ideas/people/idea_por_jose_hipolito_raposo
+		}
+		random_commie = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {communist_revolutionary}
+			picture = /media/get//hoi4/ideas/people/idea_ivan_yumashev
+		}
+		industry_man = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {captain_of_industry}
+			picture = /media/get//hoi4/ideas/people/idea_joachim_von_ribbentrop
+		}
+	}
+
+	#Military
+	army_chief = {
+	}
+	navy_chief = {
+	}
+	air_chief = {
+	}
+	high_command = {
+	}
+	#Manufacturers
+	tank_manufacturer = {
+		hansa_incorporated = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {medium_tank_manufacturer}
+			research_bonus = { armor = 0.10 }
+			picture = /media/get//hoi4/ideas/not_people/idea_amiot
+		}
+	}
+	naval_manufacturer = {
+	}
+	aircraft_manufacturer = {
+	}
+	materiel_manufacturer = {
+	}
+	theorist = {
+		bombs = {
+			allowed = {
+				original_tag = TYL
+			}
+			traits = {nuclear_scientist}
+			picture = /media/get//hoi4/ideas/people/idea_victor_emmanuel
+		}
+	}
+}

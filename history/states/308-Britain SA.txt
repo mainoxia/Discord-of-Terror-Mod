@@ -1,0 +1,44 @@
+
+state={
+	id=308
+	name="STATE_308"
+	manpower=	25678
+	state_category = tiny_island
+
+	history={
+		add_core_of = BAS
+		#owner = ENG
+		buildings = {
+			infrastructure = 4
+			4450 = {
+				naval_base = 1
+			}
+			7123 = {
+				naval_base = 1
+			}
+		}
+
+##State edits start
+
+##State edit for PRH after 1936.1.1
+1936.1.1 = {
+	add_core_of = PRH
+	owner = PRH
+	controller = PRH
+}
+
+
+##State edit for PRH after 1936.1.1
+1936.1.1 = {
+	add_core_of = PRH
+	owner = PRH
+	controller = PRH
+}
+
+##State edits end
+
+}
+provinces={
+		4450 7123 
+	}
+}

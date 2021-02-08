@@ -1,0 +1,11 @@
+focus_tree = {
+	id = sex
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TYL
+		}
+	}
+#End of focuses 
+ }
