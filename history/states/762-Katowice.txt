@@ -5,10 +5,10 @@ state={
 ##State edits start
 
 ##State edit for TYL after 1936.1.1
-1936.1.1 ={
-	add_core_of = TYL
-	owner = TYL
-	controller = TYL
+1936.1.1 = {
+	add_core_of = "TYL"
+	owner = "TYL"
+	controller = "TYL"
 }
 
 ##State edits end

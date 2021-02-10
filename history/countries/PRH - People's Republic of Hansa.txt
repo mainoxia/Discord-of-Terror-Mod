@@ -78,7 +78,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Hansa"
 	#Custom image for Hansa
-	picture = "Hansa_PRH.dds
+	picture = "Hansa_PRH.dds"
 	expire = "1965.1.1"
 	ideology = anti_revisionism
 	traits = { }
