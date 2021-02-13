@@ -1,2 +1,3 @@
-TYL = "countries/People's Republic of Hansa.txt"
-PRH = "countries/People's Republic of Hansa.txt"
+TYL = "countries/Confederate States of America.txt"
+PRH = "countries/Confederate States of America.txt"
+ZEU = "countries/Confederate States of America.txt"
