@@ -51,8 +51,8 @@ set_popularities = {
 #Create country leader - Zeus McGuire
 create_country_leader = {
 	name = "Zeus McGuire"
-	picture = "leader_unknown.dds"
+	picture = "Zeus_McGuire"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = { }
 }
